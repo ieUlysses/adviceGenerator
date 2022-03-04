@@ -1,12 +1,14 @@
+import "./Styles/Container.css"
+import Card from './Componants/Card/Card';
 
-import './App.css';
+
 
 function App() {
   return (
     <>
-      <h1>
-        Hello World ("test")
-      </h1>
+      <div className='container'>
+        <Card />
+      </div>
     </>
   );
 }
