@@ -1,0 +1,21 @@
+/* $bodyBackground: #202632;
+$cardBackground:     #313A49;
+$textColor:    #AABBC4;
+$buttonColor:       #306E59;
+$buttonHoverColor:     #52FEAA ;
+ */
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1f2632;
+  width: 100vw;
+  height: 100vh;
+}
+/*# sourceMappingURL=Container.css.map */

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA;;;;;GAKG;ADHH,AAAA,UAAU,CAAA;EACN,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EAEvB,gBAAgB,ECST,OAAkB;EDPzB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "Container.scss",
+        "../Variables/Variables.scss"
+    ],
+    "names": [],
+    "file": "Container.css"
+}
