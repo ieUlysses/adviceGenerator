@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap");
 /* $bodyBackground: #202632;
 $cardBackground:     #313A49;
 $textColor:    #AABBC4;
@@ -6,5 +7,12 @@ $buttonHoverColor:     #52FEAA ;
  */
 .card {
   background-color: #323a49;
+  margin: 15px;
+}
+
+@media (min-width: 31.25rem) {
+  .card {
+    width: 30rem;
+  }
 }
 /*# sourceMappingURL=Card.css.map */

@@ -1,11 +1,17 @@
-import React from 'react'
+import { React, useContext } from 'react'
+import Context from '../../Context/Context';
 
 import "../../Styles/Text.css"
 
 
+
 function Text() {
+
+    const context = useContext(Context);
+    const { slip } = context;
+
     return (
-        <div className='text' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempora atque debitis recusandae hic ducimus corporis eius ipsa dolorem eos unde esse in odio eligendi ad accusantium, vel est error!</div>
+        <div className='text' >{slip.slip.advice}</div>
     )
 }
 
