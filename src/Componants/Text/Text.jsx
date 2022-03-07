@@ -11,7 +11,7 @@ function Text() {
     const { slip } = context;
 
     return (
-        <div className='text' >{slip.slip.advice}</div>
+        <p className='textbody' >{slip.slip.advice}</p>
     )
 }
 

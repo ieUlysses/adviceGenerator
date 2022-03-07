@@ -5,8 +5,17 @@ $textColor:    #AABBC4;
 $buttonColor:       #306E59;
 $buttonHoverColor:     #52FEAA ;
  */
-.text {
+.textid {
+  color: #52ffa8;
+}
+
+.textbody {
   color: #cee3e9;
+  font-size: 23px;
+}
+
+.textbody, .textid {
+  text-align: center;
   font-family: "Manrope";
   font-weight: 800;
 }
