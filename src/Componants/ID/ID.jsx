@@ -11,7 +11,7 @@ function ID() {
     return (
         <>
             <p className='textid'>
-                {id}
+                Advice #{id}
             </p>
         </>
     )
