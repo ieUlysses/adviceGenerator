@@ -1,5 +1,7 @@
 import { React, useContext } from 'react'
 
+import icondice from "../../Media/icon-dice.svg"
+
 import Context from '../../Context/Context'
 
 // StylesImport
@@ -17,7 +19,11 @@ function Button() {
     }
 
     return (
-        <button className='button' role={'button'} onClick={update}></button>
+        <div className='button-wrapper' >
+            <a role={'button'} onClick={update}>
+                <img className='button' src={icondice} alt="dice btn" srcset="" />
+            </a>
+        </div>
     )
 }
 

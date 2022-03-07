@@ -2,16 +2,16 @@
 
 .card{
     background-color:$DarkGrayish;
-
-
     margin: 15px;
-        
- 
+    padding: 25px;
+    border-radius: 15px;
 
-     
-@media (min-width: 31.25rem) {
-  
-      width: 30rem;
-  
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    @media (min-width: 31.25rem) {
+        width: 30rem;
+}
 }
