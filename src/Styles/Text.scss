@@ -1,7 +1,21 @@
 @import "../Variables/Variables.scss";
 
-.text{
+.textid{
+    color: $NeonGreen;
+    
+}
+
+.textbody{
     color: $LightCyan;
+    font-size: 23px;
+
+}
+
+
+
+.textbody , .textid{
+    text-align: center;
     font-family: $bodyText;
     font-weight: 800;
+    
 }

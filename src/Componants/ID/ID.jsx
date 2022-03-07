@@ -1,6 +1,7 @@
 import { React, useContext } from 'react'
 import Context from "../../Context/Context"
 
+import "../../Styles/Text.css"
 
 function ID() {
 
@@ -9,9 +10,9 @@ function ID() {
 
     return (
         <>
-            <h1>
+            <p className='textid'>
                 {id}
-            </h1>
+            </p>
         </>
     )
 }
