@@ -32,6 +32,8 @@ $buttonHoverColor:     #52FEAA ;
   padding: 0;
   border-radius: 100%;
   border: none;
+  -webkit-transform: translateY(45px);
+          transform: translateY(45px);
 }
 
 .button-wrapper, .button {
