@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,yCAAyC;EAC3D,mBAAmB,EAAE,MAAM;EAC3B,iBAAiB,EAAE,SAAS;EAC5B,MAAM,EAAE,IAAI;CAMf;;AAJG,MAAM,EAAE,SAAS,EAAE,QAAQ;EAR/B,AAAA,QAAQ,CAAA;IASA,gBAAgB,EAAE,yCAAyC;GAGlE",
+    "sources": [
+        "Divider.scss"
+    ],
+    "names": [],
+    "file": "Divider.css"
+}

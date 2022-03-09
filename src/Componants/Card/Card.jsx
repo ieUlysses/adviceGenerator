@@ -4,6 +4,7 @@ import "../../Styles/Card.css"
 import Text from '../Text/Text'
 import Button from '../Button/Button'
 import ID from '../ID/ID'
+import Divider from '../Divider/Divider'
 
 
 function Card() {
@@ -11,6 +12,7 @@ function Card() {
         <div className='card'>
             <ID />
             <Text />
+            <Divider />
             <Button />
         </div>
     )
