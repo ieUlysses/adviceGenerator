@@ -13,17 +13,17 @@ function Button() {
     const { setId } = context
     const update = () => {
 
-        let x = Math.floor((Math.random() * 225) + 1)
+        let x = Math.floor((Math.random() * 223) + 1)
 
         setId(x)
     }
 
     return (
-        <div className='button-wrapper' >
-            <a role={'button'} onClick={update}>
-                <img className='button' src={icondice} alt="dice btn" srcset="" />
-            </a>
-        </div>
+        <>
+            <button className="button-wrapper" role={'button'} onClick={update}>
+                <img className='button' src={icondice} alt="dice btn" />
+            </button>
+        </>
     )
 }
 
